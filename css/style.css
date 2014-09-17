@@ -56,7 +56,7 @@
 	background-size:cover;
 	background-position:center center;
 	background-repeat:no-repeat;
-	background-image:url(../images/fotos/DSCN1518.JPG);
+	background-image:url(../images/fotos/DSCN1518.jpg);
 }
 
 #qLpercentage{
@@ -255,16 +255,16 @@ a:focus{
 }
 
 #photo_divider1{
-	background-image:url(/images/fotos/DSCN1462.JPG);
+	background-image:url(/images/fotos/DSCN1462.jpg);
 }
 
 #photo_divider2{
-	background-image:url(/images/fotos/DSCN2459.JPG);
+	background-image:url(/images/fotos/DSCN2459.jpg);
 	background-position:top center;
 }
 
 #photo_divider3{
-	background-image:url(/images/fotos/DSCN2883.JPG);
+	background-image:url(/images/fotos/DSCN2883.jpg);
 	background-position:top center;
 }
 

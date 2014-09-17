@@ -96,9 +96,9 @@
 		$.supersized({
 			slides  :  	
 			[ 
-				{	image : '../images/fotos/DSCN1518.JPG' } ,
-				{	image : '../images/fotos/DSCN1877.JPG' } ,
-				{	image : '../images/fotos/RSCN6584.JPG' } 
+				{	image : '../images/fotos/DSCN1518.jpg' } ,
+				{	image : '../images/fotos/DSCN1877.jpg' } ,
+				{	image : '../images/fotos/RSCN6584.jpg' } 
 			]
 		});
 	});
