@@ -473,8 +473,8 @@
             	<!-- TITLE -->
             	<div class="row">
                 	<div id="registry_title" class="col-md-12 text-center the_title animation fadeInUp">
-                    	<h2 class="margin0 padding0">GIFT REGISTRY</h2>
-                        <span class="margin0 padding0 sub_title">THANK YOU</span>
+                    	<h2 class="margin0 padding0">PRESENTES</h2>
+                        <span class="margin0 padding0 sub_title">MUITO OBRIGADO!</span>
                     </div>
                     <div class="col-md-offset-1"></div>
                     <div id="registry_intro" class="col-md-10 col-md-offset-1 text-center animation delay1 fadeInUp">
@@ -486,14 +486,51 @@
                 <div class="row">
                 	<div class="col-md-12 animation fadeInUp">
                     	<div id="registry_logo" class="owl-carousel">
-    						<div class="item"> <a href="#"> <img src="http://placehold.it/249x67" alt=""> </a> </div>
-    						<div class="item"> <a href="#"> <img src="http://placehold.it/249x67" alt=""> </a> </div>
-                            <div class="item"> <a href="#"> <img src="http://placehold.it/249x67" alt=""> </a> </div>
-                            <div class="item"> <a href="#"> <img src="http://placehold.it/249x67" alt=""> </a> </div>
-                            <div class="item"> <a href="#"> <img src="http://placehold.it/249x67" alt=""> </a> </div>
+    						<div class="item">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <input type="hidden" name="itemCode" value="9707B77664647AA444FF1F8CE07D793B" />
+                                    <input type="image" src="images/produtos/jantar-paris.jpg" name="submit" alt="Jantar em Paris">
+                                    <span class="box_text">Jantar em Paris: R$150</spam>
+                                </form>
+                            </div>
+                            <div class="item">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <input type="hidden" name="itemCode" value="67847A057A7A908EE4344FA0627B8CF6" />
+                                    <input type="image" src="images/produtos/jantar-mykonos.jpg" name="submit" alt="Jantar em Mykonos">
+                                    <span class="box_text">Jantar em Mykonos: R$100</spam>
+                                </form>
+                            </div>
+                            <div class="item">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <input type="hidden" name="itemCode" value="4A7467506A6AE8ECC4A3EFA34569F3FE" />
+                                    <input type="image" src="images/produtos/passeio-nice.jpg" name="submit" alt="Passeio em Nice">
+                                    <span class="box_text">Passeio em Nice: R$200</spam>
+                                </form>
+                            </div>
+                            <div class="item">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <input type="hidden" name="itemCode" value="9707B77664647AA444FF1F8CE07D793B" />
+                                    <input type="image" src="images/produtos/jantar-paris.jpg" name="submit" alt="Jantar em Paris">
+                                    <span class="box_text">Jantar em Paris: R$150</spam>
+                                </form>
+                            </div>
+                            <div class="item">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <input type="hidden" name="itemCode" value="67847A057A7A908EE4344FA0627B8CF6" />
+                                    <input type="image" src="images/produtos/jantar-mykonos.jpg" name="submit" alt="Jantar em Mykonos">
+                                    <span class="box_text">Jantar em Mykonos: R$100</spam>
+                                </form>
+                            </div>
+                            <div class="item">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <input type="hidden" name="itemCode" value="4A7467506A6AE8ECC4A3EFA34569F3FE" />
+                                    <input type="image" src="images/produtos/passeio-nice.jpg" name="submit" alt="Passeio em Nice">
+                                    <span class="box_text">Passeio em Nice: R$200</spam>
+                                </form>
+                            </div>
     					</div>
                     </div>
-                </div><!-- END of LOGO SLIDE -->	
+                </div><!-- END of LOGO SLIDE -->
             </div>        	
         </section><!--END of REGISTRY SECTION-->
         
@@ -611,5 +648,6 @@
         <!-- Custom Script -->
         <script type="text/javascript" src="js/script.js"></script>
         
+        <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
 	</body>
 </html>
