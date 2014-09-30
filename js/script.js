@@ -98,7 +98,7 @@
 			[ 
 				{	image : '../images/fotos/DSCN1518.jpg' } ,
 				{	image : '../images/fotos/DSCN1877.jpg' } ,
-				{	image : '../images/fotos/RSCN6584.jpg' } 
+				{	image : '../images/fotos/DSCN6584.jpg' } 
 			]
 		});
 	});
