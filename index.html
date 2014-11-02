@@ -288,174 +288,63 @@
                 </div>
             </div>
         </section><!--END of PHOTO DIVIDER2 SECTION-->
-                        
-         <!--GALLERY-2 SECTION START-->
-        <section id="gallery"> 
-        	<div class="container"> 
-            	<!-- TITLE -->
-            	<div class="row">
-                	<div id="gallery2_title" class="col-md-12 text-center the_title animation fadeInUp">
-                    	<h2 class="margin0 padding0">ÁLBUM DE FOTOS</h2>
-                        <span class="margin0 padding0 sub_title">NOSSOS MOMENTOS</span>
+                 
+
+        <!--RSVP SECTION START-->
+        <section id="rsvp">
+            <div class="container">
+                <!-- TITLE -->
+                <div class="row">
+                    <div id="rsvp_title" class="col-md-12 text-center the_title animation fadeInUp">
+                        <h2 class="margin0 padding0">RSVP</h2>
+                        <span class="margin0 padding0 sub_title">JOIN OUR PARTY</span>
                     </div>
                     <div class="col-md-offset-1"></div>
-                    <div id="gallery2_intro" class="col-md-10 col-md-offset-1 text-center animation delay1 fadeInUp">
+                    <div id="rsvp_intro" class="col-md-10 col-md-offset-1 text-center animation delay1 fadeInUp">
                         <span class="glyphicon glyphicon-heart intro_heart"></span>
-                        <span class="intro">Momentos especiais para nós que gostariamos de relembrar e compartilhar com vocês antes do casamento, para que todos fiquem com nossa história de amor fresca na memória.</span>
+                        <span class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo, dui ipsum tristique dolor, in ullamcorper tellus velit quis nisl. In placerat volutpat elit quis dictum. Ut id sem nec mauris lacinia rhoncus.</span>
                     </div>
                 </div><!-- END TITLE -->
-                
-                <!-- GALLERY-2-->
-                <div class="row"> 
-                	<div class="col-md-12"> 
-                    
-                		<div id="gallery2" class="masonry">
-                			
-                            <!-- MASONRY GRID SIZER -->
-                            <div class="grid_sizer"></div>
-                            
-                            <!-- GALLERY ITEM-->
-                			<div class="masonry_col animation fadeIn">
-                    			<div class="photo_item">
-                        			<div class="photo_item_preview">
-                            			<a href="#">
-                                			<img src="images/fotos/DSCN0817.jpg" alt="Malibu">
-                                		</a>
-                           				<div class="photo_item_overlay">
-                            				<a href="images/fotos/DSCN0817.jpg">
-                                    			<span class="icon_background"></span>
-                                    			<span class="glyphicon glyphicon-zoom-in icon_button"></span>
-                                   			</a>
-                            			</div>
-                            		</div>
-                        		</div>
-                    		</div><!-- END of GALLERY ITEM-->
-                            
-                            <!-- GALLERY ITEM-->
-                            <div class="masonry_col animation fadeIn">
-                                <div class="photo_item">
-                                    <div class="photo_item_preview">
-                                        <a href="#">
-                                            <img src="images/fotos/DSCN0399.jpg" alt="Malibu">
-                                        </a>
-                                        <div class="photo_item_overlay">
-                                            <a href="images/fotos/DSCN0399.jpg">
-                                                <span class="icon_background"></span>
-                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- END of GALLERY ITEM-->
+                <!-- FORM -->
+                <div class="row">
+                    <div id="result" class="col-md-12"> <!-- Show Message --> </div>
+                  
+                    <form method="post" action="rsvp.php" id="rsvpform">
+                        <div class="col-md-6">
+                            <div id="fullname" class="form-group">
+                                <label for="inputname">*NAME</label>
+                                <input type="text" class="form-control" id="inputname" placeholder="">
+                            </div>
+                            <div id="email" class="form-group">
+                                <label for="inputemail">*EMAIL ADDRESS</label>
+                                <input type="email" class="form-control" id="inputemail" placeholder="">
+                            </div>
+                            <div id="events" class="form-group">
+                                <label for="inputevents">*I'LL ATTEND TO</label>
+                                <select  multiple id="inputevents" class="form-control">
+                                    <option>Wedding Day</option>
+                                    <option>Ceremony Day</option>
+                                    <option>The Party</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="inputmessage">LEAVE YOUR MESSAGE</label>
+                                <textarea id="inputmessage" class="form-control" rows="11"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <div class="form-group">
+                                <input type="submit" id="submitButton"  name="submitButton" class="btn btn-default btn-lg" value="Submit">
+                            </div> 
+                        </div>
+                    </form>
+                   
+                </div>
+            </div>
+        </section><!--END of RSVP SECTION-->
 
-                            <!-- GALLERY ITEM-->
-                            <div class="masonry_col animation fadeIn">
-                                <div class="photo_item">
-                                    <div class="photo_item_preview">
-                                        <a href="#">
-                                            <img src="images/fotos/DSCN6746.jpg" alt="Malibu">
-                                        </a>
-                                        <div class="photo_item_overlay">
-                                            <a href="images/fotos/DSCN6746.jpg">
-                                                <span class="icon_background"></span>
-                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- END of GALLERY ITEM-->
-
-                            <!-- GALLERY ITEM-->
-                            <div class="masonry_col animation fadeIn">
-                                <div class="photo_item">
-                                    <div class="photo_item_preview">
-                                        <a href="#">
-                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
-                                        </a>
-                                        <div class="photo_item_overlay">
-                                            <a href="images/fotos/DSCN0817.jpg">
-                                                <span class="icon_background"></span>
-                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- END of GALLERY ITEM-->
-
-                            <!-- GALLERY ITEM-->
-                            <div class="masonry_col animation fadeIn">
-                                <div class="photo_item">
-                                    <div class="photo_item_preview">
-                                        <a href="#">
-                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
-                                        </a>
-                                        <div class="photo_item_overlay">
-                                            <a href="images/fotos/DSCN0817.jpg">
-                                                <span class="icon_background"></span>
-                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- END of GALLERY ITEM-->
-
-                            <!-- GALLERY ITEM-->
-                            <div class="masonry_col animation fadeIn">
-                                <div class="photo_item">
-                                    <div class="photo_item_preview">
-                                        <a href="#">
-                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
-                                        </a>
-                                        <div class="photo_item_overlay">
-                                            <a href="images/fotos/DSCN0817.jpg">
-                                                <span class="icon_background"></span>
-                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- END of GALLERY ITEM-->
-
-                            <!-- GALLERY ITEM-->
-                            <div class="masonry_col animation fadeIn">
-                                <div class="photo_item">
-                                    <div class="photo_item_preview">
-                                        <a href="#">
-                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
-                                        </a>
-                                        <div class="photo_item_overlay">
-                                            <a href="images/fotos/DSCN0817.jpg">
-                                                <span class="icon_background"></span>
-                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- END of GALLERY ITEM-->
-
-                            <!-- GALLERY ITEM-->
-                            <div class="masonry_col animation fadeIn">
-                                <div class="photo_item">
-                                    <div class="photo_item_preview">
-                                        <a href="#">
-                                            <img src="images/fotos/DSCN0574.jpg" alt="Malibu">
-                                        </a>
-                                        <div class="photo_item_overlay">
-                                            <a href="images/fotos/DSCN0574.jpg">
-                                                <span class="icon_background"></span>
-                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- END of GALLERY ITEM-->
-                           
-						</div><!--END of MASONRY-->
-                   </div><!-- END of GALLERY-2 COL-->
-				</div> <!-- END of GALLERY-2 ROW-->
-                
-			</div>  <!--END of CONTAINER-->
-        </section> <!--END of GALLERY-2 SECTION-->
         
         <!--PHOTO DIVIDER3 SECTION START-->
         <section>
@@ -466,14 +355,14 @@
                 </div>
             </div>
         </section><!--END of PHOTO DIVIDER6 SECTION-->
-           
+
         <!--REGISTRY SECTION START-->
         <section id="registry">
-        	<div class="container">
-            	<!-- TITLE -->
-            	<div class="row">
-                	<div id="registry_title" class="col-md-12 text-center the_title animation fadeInUp">
-                    	<h2 class="margin0 padding0">PRESENTES</h2>
+            <div class="container">
+                <!-- TITLE -->
+                <div class="row">
+                    <div id="registry_title" class="col-md-12 text-center the_title animation fadeInUp">
+                        <h2 class="margin0 padding0">PRESENTES</h2>
                         <span class="margin0 padding0 sub_title">MUITO OBRIGADO!</span>
                     </div>
                     <div class="col-md-offset-1"></div>
@@ -481,32 +370,11 @@
                         <span class="glyphicon glyphicon-heart intro_heart"></span>
                         <span class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo, dui ipsum tristique dolor, in ullamcorper tellus velit quis nisl. In placerat volutpat elit quis dictum. Ut id sem nec mauris lacinia rhoncus.</span>
                     </div>
-                </div><!-- END TITLE -->	
+                </div><!-- END TITLE -->    
                 <!-- LOGO SLIDE -->
                 <div class="row">
-                	<div class="col-md-12 animation fadeInUp">
-                    	<div id="registry_logo" class="owl-carousel">
-    						<div class="item">
-                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
-                                    <input type="hidden" name="itemCode" value="9707B77664647AA444FF1F8CE07D793B" />
-                                    <input type="image" src="images/produtos/jantar-paris.jpg" name="submit" alt="Jantar em Paris">
-                                    <span class="box_text">Jantar em Paris: R$150</spam>
-                                </form>
-                            </div>
-                            <div class="item">
-                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
-                                    <input type="hidden" name="itemCode" value="67847A057A7A908EE4344FA0627B8CF6" />
-                                    <input type="image" src="images/produtos/jantar-mykonos.jpg" name="submit" alt="Jantar em Mykonos">
-                                    <span class="box_text">Jantar em Mykonos: R$100</spam>
-                                </form>
-                            </div>
-                            <div class="item">
-                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
-                                    <input type="hidden" name="itemCode" value="4A7467506A6AE8ECC4A3EFA34569F3FE" />
-                                    <input type="image" src="images/produtos/passeio-nice.jpg" name="submit" alt="Passeio em Nice">
-                                    <span class="box_text">Passeio em Nice: R$200</spam>
-                                </form>
-                            </div>
+                    <div class="col-md-12 animation fadeInUp">
+                        <div id="registry_logo" class="owl-carousel">
                             <div class="item">
                                 <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
                                     <input type="hidden" name="itemCode" value="9707B77664647AA444FF1F8CE07D793B" />
@@ -528,11 +396,35 @@
                                     <span class="box_text">Passeio em Nice: R$200</spam>
                                 </form>
                             </div>
-    					</div>
+                            <div class="item">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <input type="hidden" name="itemCode" value="9707B77664647AA444FF1F8CE07D793B" />
+                                    <input type="image" src="images/produtos/jantar-paris.jpg" name="submit" alt="Jantar em Paris">
+                                    <span class="box_text">Jantar em Paris: R$150</spam>
+                                </form>
+                            </div>
+                            <div class="item">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <input type="hidden" name="itemCode" value="67847A057A7A908EE4344FA0627B8CF6" />
+                                    <input type="image" src="images/produtos/jantar-mykonos.jpg" name="submit" alt="Jantar em Mykonos">
+                                    <span class="box_text">Jantar em Mykonos: R$100</spam>
+                                </form>
+                            </div>
+                            <div class="item">
+                                <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                    <input type="hidden" name="itemCode" value="4A7467506A6AE8ECC4A3EFA34569F3FE" />
+                                    <input type="image" src="images/produtos/passeio-nice.jpg" name="submit" alt="Passeio em Nice">
+                                    <span class="box_text">Passeio em Nice: R$200</spam>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div><!-- END of LOGO SLIDE -->
-            </div>        	
+            </div>          
         </section><!--END of REGISTRY SECTION-->
+
+
+           
         
         <!--PHOTO DIVIDER4 SECTION START-->
         <section>
@@ -544,60 +436,474 @@
             </div>
         </section><!--END of PHOTO DIVIDER7 SECTION-->
                 
-        <!--RSVP SECTION START-->
-        <section id="rsvp">
-        	<div class="container">
-            	<!-- TITLE -->
-            	<div class="row">
-                	<div id="rsvp_title" class="col-md-12 text-center the_title animation fadeInUp">
-                    	<h2 class="margin0 padding0">RSVP</h2>
-                        <span class="margin0 padding0 sub_title">JOIN OUR PARTY</span>
+         <!--GALLERY-2 SECTION START-->
+        <section id="gallery"> 
+            <div class="container"> 
+                <!-- TITLE -->
+                <div class="row">
+                    <div id="gallery2_title" class="col-md-12 text-center the_title animation fadeInUp">
+                        <h2 class="margin0 padding0">ÁLBUM DE FOTOS</h2>
+                        <span class="margin0 padding0 sub_title">NOSSOS MOMENTOS</span>
                     </div>
                     <div class="col-md-offset-1"></div>
-                    <div id="rsvp_intro" class="col-md-10 col-md-offset-1 text-center animation delay1 fadeInUp">
+                    <div id="gallery2_intro" class="col-md-10 col-md-offset-1 text-center animation delay1 fadeInUp">
                         <span class="glyphicon glyphicon-heart intro_heart"></span>
-                        <span class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo, dui ipsum tristique dolor, in ullamcorper tellus velit quis nisl. In placerat volutpat elit quis dictum. Ut id sem nec mauris lacinia rhoncus.</span>
+                        <span class="intro">Momentos especiais para nós que gostariamos de relembrar e compartilhar com vocês antes do casamento, para que todos fiquem com nossa história de amor fresca na memória.</span>
                     </div>
                 </div><!-- END TITLE -->
-                <!-- FORM -->
-                <div class="row">
-                	<div id="result" class="col-md-12"> <!-- Show Message --> </div>
-                  
-                	<form method="post" action="rsvp.php" id="rsvpform">
-                		<div class="col-md-6">
-                        	<div id="fullname" class="form-group">
-    							<label for="inputname">*NAME</label>
-    							<input type="text" class="form-control" id="inputname" placeholder="">
- 							</div>
-                            <div id="email" class="form-group">
-    							<label for="inputemail">*EMAIL ADDRESS</label>
-    							<input type="email" class="form-control" id="inputemail" placeholder="">
- 							</div>
-                            <div id="events" class="form-group">
-    							<label for="inputevents">*I'LL ATTEND TO</label>
-    							<select  multiple id="inputevents" class="form-control">
- 									<option>Wedding Day</option>
-  									<option>Ceremony Day</option>
-                                    <option>The Party</option>
-								</select>
- 							</div>
-                    	</div>
-                    	<div class="col-md-6">
-                        	<div class="form-group">
-    							<label for="inputmessage">LEAVE YOUR MESSAGE</label>
-    							<textarea id="inputmessage" class="form-control" rows="11"></textarea>
- 							</div>
-                    	</div>
-                        <div class="col-md-12 text-center">
-                        	<div class="form-group">
-    							<input type="submit" id="submitButton"  name="submitButton" class="btn btn-default btn-lg" value="Submit">
- 							</div> 
-                    	</div>
-                    </form>
-                   
-                </div>
-        	</div>
-        </section><!--END of RSVP SECTION-->
+                
+                <!-- GALLERY-2-->
+                <div class="row"> 
+                    <div class="col-md-12"> 
+                    
+                        <div id="gallery2" class="masonry">
+                            
+                            <!-- MASONRY GRID SIZER -->
+                            <div class="grid_sizer"></div>
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2009</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2009</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2009</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2009</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2010</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2010</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2010</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+ 
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2010</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+ 
+                           <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2011</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2011</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2011</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+ 
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2011</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                           <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2012</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2012</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2012</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+ 
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2012</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                           <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2013</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2013</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2013</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+ 
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2013</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2014</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2014</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2014</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+ 
+
+                            <!-- GALLERY ITEM-->
+                            <div class="masonry_col animation fadeIn">
+                                <div class="photo_item">
+                                    <div class="photo_item_preview">
+                                        <a href="#">
+                                            <img src="images/fotos/DSCN0817.jpg" alt="Malibu">
+                                        </a>
+                                        <div class="photo_item_overlay">
+                                            <a href="images/fotos/DSCN0817.jpg">
+                                                <span class="icon_background"></span>
+                                                <span class="glyphicon glyphicon-zoom-in icon_button"></span>
+                                                <span class="intro">2014</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- END of GALLERY ITEM-->
+ 
+ 
+                        </div><!--END of MASONRY-->
+                   </div><!-- END of GALLERY-2 COL-->
+                </div> <!-- END of GALLERY-2 ROW-->
+                
+            </div>  <!--END of CONTAINER-->
+        </section> <!--END of GALLERY-2 SECTION-->
         
         <!--FOOTER SECTION START-->
         <section id="footer">
