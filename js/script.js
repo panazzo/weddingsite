@@ -431,19 +431,25 @@
    	jQuery(document).ready(function($) {
         $("#location_map").gMap({
              maptype: google.maps.MapTypeId.ROADMAP, 
-             zoom: 12, 
+             zoom: 14, 
              markers: 
 			 	[
 			 		{
                  		latitude: -23.332218, 
                  		longitude: -46.238646, 
-                 		html: "<strong>Fazenda 7 Lagoas</strong>", 
+                 		html: "<strong>Fazenda</strong>", 
                 		popup: true,               
 					},
 					 {
                  		latitude: -23.317893, 
                   		longitude: -46.223205, 
                   		html: "<strong>Santa Isabel - SP</strong>", 
+                  		popup: true,               
+                     },
+					 {
+                 		latitude: -23.335577, 
+                  		longitude: -46.222697, 
+                  		html: "<strong>Hotel</strong>", 
                   		popup: true,               
                      } 
                 ], 

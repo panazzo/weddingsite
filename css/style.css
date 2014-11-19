@@ -672,6 +672,7 @@ a:focus{
 .box{
 	background-color:#ffffff;
 	margin-top:20px;
+	height: 300px;
 }
 
 .box_icon{

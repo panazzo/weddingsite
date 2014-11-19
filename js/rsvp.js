@@ -13,7 +13,6 @@ $(document).ready(function(){
 			
 		var	inputname  = $('#inputname').val(),
 			inputemail = $('#inputemail').val(),
-			inputevents = $('#inputevents').val(),
 			inputmessage= $('#inputmessage').val();
 			
 		if (inputname == "") {
@@ -32,15 +31,8 @@ $(document).ready(function(){
 			$("#email").removeClass("has-error");
         }
 		
-		if (inputevents == null) {
-            $("#events").addClass("has-error");
-        }
-		else
-		{
-			$("#events").removeClass("has-error");
-		}
 
-		var post_data = { input_name: $('#inputname').val(), input_email: $('#inputemail').val(), input_events: $('#inputevents').val(), input_message: $('#inputmessage').val()  };
+		var post_data = { input_name: $('#inputname').val(), input_email: $('#inputemail').val(), input_message: $('#inputmessage').val()  };
 			
             //Ajax post data to server
             $.post(url, post_data, function(response){  
