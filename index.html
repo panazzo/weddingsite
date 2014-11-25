@@ -43,7 +43,7 @@
 			<div id="logo_wrapper" class="container">
 				<div class="row">
 					<div class="col-md-1">
-                    	<a id="logo_link" href="http://demo.dethemes.com/luv/">
+                    	<a id="logo_link">
                         	<img src="images/logo.png" id="logo" class="animation" />
                         </a>
                     </div>
@@ -357,14 +357,40 @@
                   
                     <form method="post" action="rsvp.php" id="rsvpform">
                         <div class="col-md-6">
-                            <div id="fullname" class="form-group">
-                                <label for="inputname">*NOME</label>
-                                <input type="text" class="form-control" id="inputname" placeholder="">
+                            <div class="col-md-12">
+                                <div id="fullname" class="form-group">
+                                    <label for="inputname">*NOME COMPLETO</label>
+                                    <input type="text" class="form-control" id="inputNome0" placeholder="">
+                                </div>
                             </div>
-                            <div id="email" class="form-group">
-                                <label for="inputemail">*EMAIL</label>
-                                <input type="email" class="form-control" id="inputemail" placeholder="">
-                            </div>                            
+                            <div class="col-md-12">
+                                <div id="email" class="form-group">
+                                    <label for="inputemail">*EMAIL</label>
+                                    <input type="email" class="form-control" id="inputEmail0" placeholder="">
+                                </div>
+                            </div>
+                            <div class="sapato">
+                                <div class="col-md-6">
+                                    <div id="fullname" class="form-group">
+                                        <label for="inputname">*SEXO</label>
+                                        <select class="form-control" id="selectSapato0" ref="0">
+                                            <option value="0">--Selecione--</option>
+                                            <option value="m">Masculino</option>
+                                            <option value="f">Feminino</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 hidden" id="divNumeroSapato0">
+                                    <div id="fullname" class="form-group">
+                                        <label for="inputname">NÚMERO DO SAPATO</label>
+                                        <input type="text" class="form-control" id="inputSapato0" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="adicionarAcompanhante" class="form-group input_fields_wrap col-md-12">
+                                <button class="add_field_button btn btn-default btn-lg">+ Adicionar Acompanhante</button>
+                            </div>              
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
@@ -374,7 +400,7 @@
                         </div>
                         <div class="col-md-12 text-center">
                             <div class="form-group">
-                                <input type="submit" id="submitButton"  name="submitButton" class="btn btn-default btn-lg" value="Submit">
+                                <input type="submit" id="submitButton"  name="submitButton" class="btn btn-default btn-lg" value="Enviar">
                             </div> 
                         </div>
                     </form>

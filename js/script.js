@@ -11,7 +11,7 @@
 	//==================================================================================
 	if( !device.tablet() && !device.mobile() ) {
 		
-		$(document).ready(function () {
+		$(document).ready(function () {	
 		
 			$('#logo, #slide_content').css({
 				visibility: 'hidden'
@@ -489,3 +489,51 @@
 			return false;
 		}
 	});
+
+$(document).ready(function() {
+    var max_fields      = 5; //maximum input boxes allowed
+    var wrapper         = $(".input_fields_wrap"); //Fields wrapper
+    var add_button      = $(".add_field_button"); //Add button ID
+    
+    var x = 1; //initlal text box count
+    $(add_button).click(function(e){ //on add input button click
+        e.preventDefault();
+        if(x <= max_fields){ //max input box allowed
+            $(wrapper).append(getSnippetSapato(x)); //add input box
+            bindChangeSapato(x);
+            x++; //text box increment
+        }
+        else{
+        	alert("Adicione no máximo 5 acompanhantes");
+        }
+    });
+    
+    $(wrapper).on("click",".remove_field", function(e){ //user click on remove text
+        e.preventDefault(); $(this).parent('div').remove(); x--;
+    })
+});
+
+$(document).ready(function(){
+	bindChangeSapato(0);
+});
+
+function getSnippetSapato(x){
+
+	var snippet = '<div class="col-md-12" style="margin:15px 0 0 0"><div id="fullname" class="form-group"><label for="inputname">*NOME DO ACOMPANHANTE XXX</label><input type="text" class="form-control" id="inputNomeXXX" placeholder=""></div></div><div class="sapato"><div class="col-md-6"><div id="fullname" class="form-group"><label for="inputname">*SEXO</label><select class="form-control" id="selectSapatoXXX" ref="XXX"><option value="0">--Selecione--</option><option value="m">Masculino</option><option value="f">Feminino</option></select></div></div><div class="col-md-6 hidden" id="divNumeroSapatoXXX"><div id="fullname" class="form-group"><label for="inputname">NÚMERO DO SAPATO</label><input type="text" class="form-control" id="inputSapatoXXX" placeholder=""></div></div>';
+
+	var snippetReplaced = snippet.replace(/XXX/g, x);
+	return snippetReplaced;                          
+}
+
+function bindChangeSapato(x){
+	$("#selectSapato"+x).change(function(e){
+		e.preventDefault();
+		var selectedValue = $(this).val();
+		if(selectedValue == 'f'){
+			$('#divNumeroSapato'+x).removeClass("hidden");
+		}
+		else{
+			$('#divNumeroSapato'+x).addClass("hidden");	
+		}
+	});
+}

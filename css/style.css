@@ -794,12 +794,8 @@ a:focus{
 /* 09. RSVP				  */
 /*========================*/
 
-input[type=text], input[type=email] {
-   	height:45px;
-}
-
-input[type=text], input[type=email], select, textarea{
-	border-radius:0 !important;
+input[type=text], input[type=email], select {
+   	height:55px !important;
 }
 
 option{
@@ -1101,4 +1097,8 @@ h3{
 #theme_options > span{
 	font-size:24px;
 	margin: 0 5px 0 10px
+}
+
+#hidden{
+	display: none;
 }
