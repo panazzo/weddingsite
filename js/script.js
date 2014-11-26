@@ -519,7 +519,7 @@ $(document).ready(function(){
 
 function getSnippetSapato(x){
 
-	var snippet = '<div class="col-md-12" style="margin:15px 0 0 0"><div id="fullname" class="form-group"><label for="inputname">*NOME DO ACOMPANHANTE XXX</label><input type="text" class="form-control" id="inputNomeXXX" placeholder=""></div></div><div class="sapato"><div class="col-md-6"><div id="fullname" class="form-group"><label for="inputname">*SEXO</label><select class="form-control" id="selectSapatoXXX" ref="XXX"><option value="0">--Selecione--</option><option value="m">Masculino</option><option value="f">Feminino</option></select></div></div><div class="col-md-6 hidden" id="divNumeroSapatoXXX"><div id="fullname" class="form-group"><label for="inputname">NÚMERO DO SAPATO</label><input type="text" class="form-control" id="inputSapatoXXX" placeholder=""></div></div>';
+	var snippet = '<div class="col-md-12" style="margin:15px 0 0 0"><div id="fullnameXXX" class="form-group"><label for="inputname">*NOME DO ACOMPANHANTE XXX</label><input type="text" class="form-control" id="inputNomeXXX" placeholder=""></div></div><div class="sapato"><div class="col-md-6"><div id="sexoXXX" class="form-group"><label for="inputname">*SEXO</label><select class="form-control" id="selectSapatoXXX" ref="XXX"><option value="0">--Selecione--</option><option value="m">Masculino</option><option value="f">Feminino</option></select></div></div><div class="col-md-6 hidden" id="divNumeroSapatoXXX"><div id="sapatoXXX" class="form-group"><label for="inputname">NÚMERO DO SAPATO</label><input type="text" class="form-control" id="inputSapatoXXX" placeholder=""></div></div>';
 
 	var snippetReplaced = snippet.replace(/XXX/g, x);
 	return snippetReplaced;                          
