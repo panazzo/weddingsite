@@ -357,11 +357,21 @@
 	$(document).ready(function() {
     	$("#registry_logo").owlCarousel({
 			items : 4, 
-			autoPlay: 2000,
+			autoPlay: 3500,
 			stopOnHover: true,
-			pagination: false
+			pagination: true
 		});
     });
+
+    $(document).ready(function() {
+    	$("#registry_logo2").owlCarousel({
+			items : 4, 
+			autoPlay: 3500,
+			stopOnHover: true,
+			pagination: true
+		});
+    });
+
 	
 	// Blog-2
 	//==================================================================================

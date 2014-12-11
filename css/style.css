@@ -255,21 +255,24 @@ a:focus{
 }
 
 #photo_divider1{
-	background-image:url(/images/fotos/DSCN1462.jpg);
-}
-
-#photo_divider2{
 	background-image:url(/images/fotos/DSCN2459.jpg);
 	background-position:top center;
 }
 
-#photo_divider3{
+#photo_divider2{
 	background-image:url(/images/fotos/DSCN2883.jpg);
 	background-position:top center;
 }
 
+#photo_divider3{
+	background-image:url(/images/fotos/Foto-2.jpg);
+	background-position:top center;
+}
+
+
 #photo_divider4{
-	background-image:url(http://placehold.it/1366x804);
+	background-image:url(/images/fotos/Foto-1.jpg);
+	background-position:top center;	
 }
 
 /* 01-4 Button */
@@ -289,6 +292,13 @@ a:focus{
 /* 01-5 Photo Item */
 /* ----------------------- */
 .photo_item {
+	position:relative;
+	overflow:hidden;
+	width: 285px;
+	height: 214px;
+}
+
+.photo_item_topo {
 	position:relative;
 	overflow:hidden;
 }
@@ -342,6 +352,19 @@ a:focus{
 			transform: scale(1.1); 
 }
 
+.photo_item_topo:hover .photo_item_overlay {
+	opacity: 1; 
+	-webkit-transform: scale(1); 
+		-ms-transform: scale(1);
+		 -o-transform: scale(1);  
+			transform: scale(1); 
+}
+.photo_item_topo:hover .photo_item_preview > a img { 
+	-webkit-transform: scale(1.1); 
+		-ms-transform: scale(1.1);
+		 -o-transform: scale(1.1);  
+			transform: scale(1.1); 
+}
 .icon_background{
 	display:block; 
 	background: rgba(0, 0, 0, 0); 
@@ -749,6 +772,15 @@ a:focus{
 }
 
 #registry_logo .item img{
+	width:80%;
+	height:auto;
+}
+
+#registry_logo2 .item{
+	text-align:center;	
+}
+
+#registry_logo2 .item img{
 	width:80%;
 	height:auto;
 }
