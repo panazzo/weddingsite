@@ -17,7 +17,7 @@
 	else
 	{
 		//Contact 0
-		$email_to 			=   'rafaelpanazzo@gmail.com,j.jessica.garrido@gmail.com'; 
+		$email_to 			=   'rafaelpanazzo@gmail.com,j.jessica.garrido@gmail.com,operacional.troisassessoria@gmail.com'; 
 		$contact_name0     	=   $_POST['input_name0'];  
 		$contact_email0    	=   $_POST['input_email0'];
 		$contact_sexo0  	=   $_POST['input_sexo0'];
